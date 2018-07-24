@@ -28,15 +28,13 @@ namespace HWorldTest
 		[Test]
 		public void WelcomeTextIsDisplayed()
 		{
-			AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-			app.Screenshot("Welcome screen.");
-            
+			//AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
+			//app.Screenshot("Welcome screen.");
+			//Assert.IsTrue(results.Any());
 
-			Assert.IsTrue(results.Any());
-            Assert.AreEqual("HelloHello", app.Query("HelloLabel")[0].Text);
+            Assert.AreEqual("Hello", app.Query("HelloLabel")[0].Text);
             app.Tap("ClickButton");
-            
-
+            Assert.AreEqual("Goodbye", app.Query("HelloLabel")[0].Text);
         }
     }
 }

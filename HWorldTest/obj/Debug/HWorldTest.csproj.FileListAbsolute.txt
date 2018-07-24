@@ -1,0 +1,8 @@
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/bin/Debug/HWorldTest.dll
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/bin/Debug/HWorldTest.pdb
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/bin/Debug/nunit.framework.dll
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/bin/Debug/Xamarin.UITest.dll
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/obj/Debug/HWorldTest.csprojResolveAssemblyReference.cache
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/obj/Debug/HWorldTest.csproj.CoreCompileInputs.cache
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/obj/Debug/HWorldTest.dll
+/Users/jcherayil/Desktop/HWorld1/HWorldTest/obj/Debug/HWorldTest.pdb

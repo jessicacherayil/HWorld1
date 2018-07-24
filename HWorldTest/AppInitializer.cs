@@ -10,7 +10,7 @@ namespace HWorldTest
 		{
 			if (platform == Platform.Android)
 			{
-				return ConfigureApp.Android.StartApp();
+                return ConfigureApp.Android.StartApp();
 			}
 
 			return ConfigureApp.iOS.StartApp();

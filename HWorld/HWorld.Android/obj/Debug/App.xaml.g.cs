@@ -13,7 +13,7 @@
 namespace HWorld {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorld\\HWorld\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/jcherayil/Desktop/HWorld1/HWorld/HWorld/App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

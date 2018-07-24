@@ -13,5 +13,16 @@ namespace HWorld
 		{
 			InitializeComponent();
 		}
+
+        void OnButtonClick(object sender, EventArgs args){
+            if(HLabel.Text == "Hello"){
+                HLabel.Text = "Goodbye";
+            }
+            else{
+                HLabel.Text = "Hello";
+            }
+
+
+        }
 	}
 }

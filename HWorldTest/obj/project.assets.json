@@ -22,16 +22,6 @@
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
         }
-      },
-      "HWorld.Android/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
@@ -54,16 +44,6 @@
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
-        }
-      },
-      "HWorld.Android/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HWorld.Android.dll": {}
         }
       }
     },
@@ -88,16 +68,6 @@
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
         }
-      },
-      "HWorld.Android/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        }
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
@@ -120,16 +90,6 @@
         },
         "runtime": {
           "lib/net45/Xamarin.UITest.dll": {}
-        }
-      },
-      "HWorld.Android/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/HWorld.Android.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HWorld.Android.dll": {}
         }
       }
     }
@@ -181,52 +141,39 @@
         "xamarin.uitest.2.2.4.nupkg.sha512",
         "xamarin.uitest.nuspec"
       ]
-    },
-    "HWorld.Android/1.0.0": {
-      "type": "project",
-      "path": "../HWorld/HWorld.Android/HWorld.Android.csproj",
-      "msbuildProject": "../HWorld/HWorld.Android/HWorld.Android.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "HWorld.Android >= 1.0.0",
       "NUnit >= 2.6.4",
       "NUnitTestAdapter >= 2.1.1",
       "Xamarin.UITest >= 2.2.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jcherayil\\.nuget\\packages\\": {}
+    "/Users/jcherayil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorldTest\\HWorldTest.csproj",
+      "projectUniqueName": "/Users/jcherayil/Desktop/HWorld1/HWorldTest/HWorldTest.csproj",
       "projectName": "HWorldTest",
-      "projectPath": "C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorldTest\\HWorldTest.csproj",
-      "packagesPath": "C:\\Users\\jcherayil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorldTest\\obj\\",
+      "projectPath": "/Users/jcherayil/Desktop/HWorld1/HWorldTest/HWorldTest.csproj",
+      "packagesPath": "/Users/jcherayil/.nuget/packages/",
+      "outputPath": "/Users/jcherayil/Desktop/HWorld1/HWorldTest/obj",
       "projectStyle": "PackageReference",
-      "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\jcherayil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jcherayil/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net461": {
-          "projectReferences": {
-            "C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorld\\HWorld.Android\\HWorld.Android.csproj": {
-              "projectPath": "C:\\Users\\jcherayil\\Desktop\\HWorld\\HWorld\\HWorld.Android\\HWorld.Android.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
@@ -235,15 +182,15 @@
         "dependencies": {
           "NUnit": {
             "target": "Package",
-            "version": "[2.6.4, )"
-          },
-          "NUnitTestAdapter": {
-            "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "2.6.4"
           },
           "Xamarin.UITest": {
             "target": "Package",
-            "version": "[2.2.4, )"
+            "version": "2.2.4"
+          },
+          "NUnitTestAdapter": {
+            "target": "Package",
+            "version": "2.1.1"
           }
         }
       }
@@ -259,43 +206,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project HWorld.Android is not compatible with net461 (.NETFramework,Version=v4.6.1). Project HWorld.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
-      "libraryId": "HWorld.Android",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project HWorld.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win. Project HWorld.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
-      "libraryId": "HWorld.Android",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1/win"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project HWorld.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x64. Project HWorld.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
-      "libraryId": "HWorld.Android",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1/win-x64"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project HWorld.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x86. Project HWorld.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
-      "libraryId": "HWorld.Android",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1/win-x86"
-      ]
-    }
-  ]
+  }
 }
