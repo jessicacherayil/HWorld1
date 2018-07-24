@@ -21,7 +21,7 @@ namespace HWorld
 		{
             AppCenter.Start("ios=c81d75d2-797b-4930-bb52-7a4138336620;" +
                   "uwp=23e4974d-37d6-4064-ba24-43ae4a8d8d19" +
-                  "android=c81d75d2-797b-4930-bb52-7a4138336620",
+                  "android=909b09e3-bd0d-4127-a87c-db477be5e2b1",
                   typeof(Analytics), typeof(Crashes));
 
         }

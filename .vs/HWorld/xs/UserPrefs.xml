@@ -1,8 +1,5 @@
 ﻿<Properties StartupConfiguration="{BF20F70D-DC15-41B9-B3D5-2D525F1877AC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HWorld/HWorld/App.xaml.cs">
-    <Files>
-      <File FileName="HWorld/HWorld/App.xaml.cs" Line="22" Column="13" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
